@@ -27,7 +27,7 @@ df = user_input_features()
 st.subheader('User Input parameters')
 st.write(df)
 
-iris = pd.data_read(https://github.com/rashidahgh/mosti-june-2022/blob/main/IRIS.csv)
+iris = pd.data_csv('https://github.com/rashidahgh/mosti-june-2022/blob/main/IRIS.csv')
 X = iris.data
 Y = iris.target
 
